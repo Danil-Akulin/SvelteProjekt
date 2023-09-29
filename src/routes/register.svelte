@@ -48,7 +48,7 @@
                             <sup><div class="alert-danger" role="alert">Password too short</div></sup>
                         {/if}
                     </fieldset>
-                    <button class="btn btn-lg btn-primary pull-xs-right" disabled="{password.length < 6}">
+                    <button class="btn btn-lg btn-primary pull-xs-right" disabled="{password.length < 5}">
                         Sign up
                     </button>
                 </form>
